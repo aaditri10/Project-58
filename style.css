@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
+
+body {
+    background: linear-gradient(#FFD54F 0%, #90CAF9 100%);
+    text-align: center;
+}
+
+img {
+    height: 350px;
+    border-radius: 45%;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px #CFD8DC;
+}
+
+.cls1 {
+    font-family: 'Cedarville Cursive';
+    color: white;
+}
+
+#s1 {
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    z-index: 30;
+    position: absolute;
+}
+
+.item {
+    float: left;
+    padding: 34px;
+    padding-top: 1;
+    cursor: pointer;
+}
+.item:hover {
+    background-color: beige;
+}
